@@ -1,0 +1,102 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Git when working on the local machine uses 3 sections
+1.working directory
+2.staging area
+3.local repository
+
+Git Commands:
+
+To move into the directory
+$ cd C:
+
+To create the directory
+$ mkdir directoryname
+
+To create a file
+$ cat >filename
+enter the data
+press Ctrl+Z
+(or)
+$ touch filename
+
+To show the list of files
+$ ls
+
+To send the files from working directory to staging area
+$ git add filename
+
+To send multiple files from working directory to staging area
+$ git add filename1 filename2 filename3
+
+To check the status
+$ git status
+
+To remove the files from staging area
+$ git reset filename
+
+To send the files from staging area to localrepository
+$ git commit -m "comments"
+
+To see the status
+$ git status
+it will show tracked and untracked files
+
+To see the list of commits
+$ git log
+
+To see the list of commits in one line
+$ git log --oneline
